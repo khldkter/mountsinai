@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\enthr\AppData\Local\Temp\testng-eclipse--1826635868\testng-customsuite.xml</span>
+                    <span>C:\Users\enthr\AppData\Local\Temp\testng-eclipse-939498606\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tastPages.HomePageTest" hash-for-method="logoTest">logoTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tastPages.HomePageTest" hash-for-method="aTest">aTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -125,14 +125,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logoTest">
-                  </a> <!-- logoTest -->
-                  <span class="method-name">logoTest</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
-	Syntax error, insert &quot;}&quot; to complete ClassBody
+                  <a name="aTest">
+                  </a> <!-- aTest -->
+                  <span class="method-name">aTest</span>
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	URL cannot be resolved
+	PAGELOAD_WAIT cannot be resolved
+	IMPLICIT_WAIT cannot be resolved
 
-	at pages.HomePage.&lt;init&gt;(HomePage.java:26)
-	at base.BaseClass.setUp(BaseClass.java:24)
+	at base.BaseClass.setUpDriver(BaseClass.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,7 +170,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\enthr\AppData\Local\Temp\testng-eclipse--1826635868\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\enthr\AppData\Local\Temp\testng-eclipse-939498606\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -220,14 +221,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logoTest')
+data.setCell(0, 1, 'aTest')
 data.setCell(0, 2, 'tastPages.HomePageTest')
-data.setCell(0, 3, 2);
+data.setCell(0, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -257,7 +258,7 @@ return data;
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setUp</span>
+                <span class="method-name">setUpDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
           </div> <!-- main-panel-content rounded-window-bottom -->

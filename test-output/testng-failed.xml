@@ -5,9 +5,9 @@
     <classes>
       <class name="tastPages.HomePageTest">
         <methods>
-          <include name="tearUp"/>
-          <include name="setUp"/>
-          <include name="logoTest"/>
+          <include name="setUpDriver"/>
+          <include name="aTest"/>
+          <include name="closingDriverSession"/>
         </methods>
       </class> <!-- tastPages.HomePageTest -->
     </classes>

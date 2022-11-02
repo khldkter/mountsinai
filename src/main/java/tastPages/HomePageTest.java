@@ -6,12 +6,9 @@ import base.BaseClass;
 
 public class HomePageTest extends BaseClass {
 	
-	@Test
-
-	public void logoTest() {
-		homePage.logoDisplayed();
+	@Test	
+	public void aTest() {
 		
 	}	
 
 }	
-	
